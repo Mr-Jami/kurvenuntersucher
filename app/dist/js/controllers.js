@@ -1,1 +1,1 @@
-app.controller("globalCtrl",(function($scope){})),app.controller("mainCtrl",(function($scope){}));
+app.controller("globalCtrl",(function($scope){})),app.controller("exerciseCtrl",(function($scope){})),app.controller("mainCtrl",(function($scope){})),app.controller("imprintCtrl",(function($scope){})),app.controller("nerdsCtrl",(function($scope){})),app.controller("sumCtrl",(function($scope){})),app.controller("vidCtrl",(function($scope){}));
