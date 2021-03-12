@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Montserrat&display=swap');
+
+:root {
+    /*use variables with var(--myColor)*/
+    --bgLight: #FFF;
+    --myColor2: #695CCD;
+    --mycolor3: #4B4191;
+    --mycolor4: #363445;
+    --mycolor5: #c46a0e;
+    --mycolor6: #B4BE6E;
+    --mycolor7: #877dd1;
+    --bgDark: #b9b2ed4f;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.barlowCondensed{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.rowMargin{
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+body{
+    padding-top: 30px;
+    background-color: var(--bgLight);
+}
+
+.bgDark{
+    background-color: var(--bgDark) !important;
+}

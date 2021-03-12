@@ -1,0 +1,19 @@
+app.directive('navBar', function () {
+    const htmlFile = "navBar.html";
+
+    this.openNav = () => {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.3)";
+    }
+
+    this.closeNav = () => {
+        document.getElementById("mySidenav").style.width = "0";
+        document.body.style.backgroundColor = "#FFF";
+    }
+
+
+    return {
+        restrict: "E",
+        templateUrl: `dist/js/directives/${htmlFile}`
+    }
+})

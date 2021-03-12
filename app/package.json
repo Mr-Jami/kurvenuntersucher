@@ -1,0 +1,43 @@
+{
+  "name": "kurvenuntersucher",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Mr-Jami/kurvenuntersucher.git"
+  },
+  "author": "Tareq Jami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mr-Jami/kurvenuntersucher/issues"
+  },
+  "homepage": "https://github.com/Mr-Jami/kurvenuntersucher#readme",
+  "dependencies": {
+    "angular": "^1.8.2",
+    "angular-route": "^1.8.2",
+    "autoprefixer": "^10.2.4",
+    "bootstrap": "^4.6.0",
+    "browserify": "^17.0.0",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-flatten": "^0.4.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.0.1",
+    "jquery": "^3.5.1",
+    "merge-stream": "^2.0.0",
+    "node": "^15.8.0",
+    "nodemailer": "^6.5.0",
+    "popper.js": "^1.16.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}

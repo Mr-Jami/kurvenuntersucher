@@ -1,0 +1,1 @@
+app.directive("navBar",(function(){return this.openNav=()=>{document.getElementById("mySidenav").style.width="250px",document.body.style.backgroundColor="rgba(0,0,0,0.3)"},this.closeNav=()=>{document.getElementById("mySidenav").style.width="0",document.body.style.backgroundColor="#FFF"},{restrict:"E",templateUrl:"dist/js/directives/navBar.html"}}));

@@ -1,0 +1,1 @@
+app.controller("globalCtrl",(function($scope){})),app.controller("mainCtrl",(function($scope){}));
