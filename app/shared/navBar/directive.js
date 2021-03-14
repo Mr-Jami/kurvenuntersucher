@@ -20,21 +20,23 @@ app.directive('navBar',[ function () {
             prev: null
         };
 
-        console.log(routeLocation.length);
         if (routeLocation.length === 0) {
             location.prev = 'ku';
-            document.getElementById("ku").style.backgroundColor = "white"
+            document.getElementById("ku").style.backgroundColor = "#f1f1f1";
+            document.getElementById("ku").style.color = "#ee6411";
         } else {
             location.prev = routeLocation;
-            document.getElementById(routeLocation).style.backgroundColor = "#f1f1f1"
+            document.getElementById(routeLocation).style.backgroundColor = "#f1f1f1";
+            document.getElementById(routeLocation).style.color = "#ee6411";
         };
 
-        console.log(location);
 
 
         updateMenu = (id) => {
-            document.getElementById(location.prev).style.backgroundColor = "#ec732a";
+            document.getElementById(location.prev).style.backgroundColor = "#ee6411";
+            document.getElementById(location.prev).style.color = "#f1f1f1";
             document.getElementById(id).style.backgroundColor = "#f1f1f1";
+            document.getElementById(id).style.color = "#ee6411";
             location.prev = id;
         }
 
