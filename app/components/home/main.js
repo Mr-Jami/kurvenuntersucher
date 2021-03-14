@@ -13,22 +13,10 @@ app.controller('mainCtrl', function ($scope, mathParser) {
 
     let answers = [
         {
-            title: {
-                class: 'title',
-                text: null
-            },
-            explain: {
-                class: 'explain',
-                text: null
-            },
-            steps: {
-                class: 'steps',
-                text: null
-            },
-            answer: {
-                class: 'answer',
-                text: null
-            }
+            title: null,
+            explain: null,
+            steps: null,
+            answer: null
         }
     ]
 
