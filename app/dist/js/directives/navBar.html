@@ -1,13 +1,13 @@
 <nav id="navBar" class="navbar navbar-expand-md fixed-top navbar-default">
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <span style="font-size:30px;cursor:pointer; background-color: white" onclick="openNav()">&#9776;</span>
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <img alt="KU Logo" src="dist/images/kuiconV2.png">
-        <a href="#!">Kurvenuntersucher</a>
-        <a href="#!videos">Videos</a>
-        <a href="#!summaries">Summaries</a>
-        <a href="#!exercise">Übungen</a>
-        <a href="#!nerds">Nerds ONLY</a>
-        <a href="#!imprint">Impressum</a>
+        <a onclick="updateMenu('ku')" id="ku" href="#!">Kurvenuntersucher</a>
+        <a onclick="updateMenu('videos')" id="videos" href="#!videos">Videos</a>
+        <a onclick="updateMenu('summaries')" id="summaries" href="#!summaries">Summaries</a>
+        <a onclick="updateMenu('exercise')" id="exercise" href="#!exercise">Übungen</a>
+        <a onclick="updateMenu('nerds')" id="nerds" href="#!nerds">Nerds ONLY</a>
+        <a onclick="updateMenu('imprint')" id="imprint" href="#!imprint">Impressum</a>
     </div>
 </nav>

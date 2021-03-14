@@ -1,0 +1,1 @@
+app.service("mathParser",(function(){return new AsciiMathParser}));

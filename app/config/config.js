@@ -1,5 +1,5 @@
-let app = angular.module("kurvenuntersucher", ["ngRoute"]);
-app.config(function($routeProvider) {
+let App = angular.module("kurvenuntersucher", ["ngRoute"]);
+App.config(function($routeProvider) {
     $routeProvider
         .when("/", {
             templateUrl : "components/home/mainView.html",
@@ -26,3 +26,4 @@ app.config(function($routeProvider) {
             controller: "imprintCtrl as vm"
         })
 });
+let app = angular.module("kurvenuntersucher");
